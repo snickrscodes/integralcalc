@@ -1,0 +1,2 @@
+model_checkpoint_path: "transformer_math_checkpoint0-1"
+all_model_checkpoint_paths: "transformer_math_checkpoint0-1"

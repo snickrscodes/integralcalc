@@ -1,6 +1,13 @@
 import sympy as sp
 import numpy as np
 
+@article{lample2019deep,
+  title={Deep learning for symbolic mathematics},
+  author={Lample, Guillaume and Charton, Fran{\c{c}}ois},
+  journal={arXiv preprint arXiv:1912.01412},
+  year={2019}
+}
+
 VAR = sp.Symbol('x')
 INT_FUNC = {sp.erf, sp.erfc, sp.erfi, sp.erfinv, sp.erfcinv, sp.expint, sp.Ei, sp.li, sp.Li, sp.Si, sp.Ci, sp.Shi, sp.Chi, sp.fresnelc, sp.fresnels}
 OPS = {
